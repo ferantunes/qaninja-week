@@ -8,7 +8,10 @@ Funcionalidade: Cadastro de Usuários
 @happy
 Cenario: Cadastro
     Dado que acesso a página de cadastro
-    Quando submeto o meu cadastro com email, senha e confirmação da senha
+    Quando submeto o meu cadastro com:
+        | email          | fcdmma@qaninja.com |
+        | senha          | pwd123             |
+        | senha_confirma | pwd123             |
     Então devo ser redirecionado para a área logada
 
 Cenario: Email não informado
