@@ -11,6 +11,6 @@ Funcionalidade: Reproduzir Paródia
     Cenario: Ouvir Paródia
         Dado que eu gosto muito de "Sertanejo"
         Quando toco a seguinte canção:
-            | parodia | Bud de Manhã   |
+            | parodia | Bug de Manhã   |
             | banda   | Marcus e Debug |
         Então essa paródia deve ficar em modo de reprodução
