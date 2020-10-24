@@ -14,7 +14,7 @@ Funcionalidade: Cadastro de Usuários
             | senha_confirma | pwd123             |
         Então devo ser redirecionado para a área logada
 
-    Esquema do Cenario: Tentativa de login
+    Esquema do Cenario: Tentativa de cadastro
         Dado que acesso a página de cadastro
         Quando submeto o meu cadastro com:
             | email          | <email>          |
