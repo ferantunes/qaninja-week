@@ -1,10 +1,6 @@
 Dado('Login com {string} e {string}') do |email, senha|
-    visit "/"
-    click_on "Login"
-
-    find("#user_email").set email
-    find("#user_password").set senha
-    click_on "Log in"
+    goto_login()
+    login_with(email, senha)
 end
   
 Dado('que eu gosto muito de {string}') do |categoria|
